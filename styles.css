@@ -384,6 +384,30 @@ body::before {
   padding: 24px;
 }
 
+.review-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+.review-meta strong {
+  font-size: 1rem;
+}
+
+.review-meta span {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.stars {
+  margin-bottom: 14px;
+  color: var(--accent);
+  letter-spacing: 0.18em;
+  font-size: 1rem;
+}
+
 .quote p {
   margin: 0;
   color: var(--text);
